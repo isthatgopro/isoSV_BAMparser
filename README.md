@@ -1,6 +1,10 @@
 # isoSV_BAMparser
 
-[Google Doc](https://docs.google.com/document/d/1i5qklL01o8b1E8FYtd3IBWgXcedRDMfNrrp3aHU8AwE/edit?tab=t.0)
+- [Google Doc - Daily Schedule](https://docs.google.com/document/d/1EMqbb5DUvDwu5YHkBu7oTPW8S4y2RMiDstHkjeXXnfE/edit?usp=sharing)
+- [Google Doc - Team 9](https://docs.google.com/document/d/1i5qklL01o8b1E8FYtd3IBWgXcedRDMfNrrp3aHU8AwE/edit?tab=t.0)
+- [SV Hackathon 2025](https://fritzsedlazeck.github.io/blog/2025/hackathon-2025/)
+
+---
 
 * `iso_parser.py` — the single main script. It performs robust parsing, per-read candidate extraction, optional clustering, and optional GTF annotation (if you supply a GTF).
 
