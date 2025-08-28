@@ -48,7 +48,7 @@ Notes:
 * Older example files may contain auxiliary-field oddities; the parser is defensive and will still operate even if `samtools view` sometimes prints errors.
 * If `samtools` complains about corruption when streaming, you can optionally create a cleaned BAM using a helper (not required for `iso_parser.py`).
 
-### 2) Gencode v43 annotation (if you want to annotate clusters)
+### 2) (Haven't tested it yet) Gencode v43 annotation (if you want to annotate clusters)
 
 ```bash
 wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_43/gencode.v43.annotation.gtf.gz
