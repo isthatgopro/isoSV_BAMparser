@@ -48,18 +48,19 @@ Notes:
 * Older example files may contain auxiliary-field oddities; the parser is defensive and will still operate even if `samtools view` sometimes prints errors.
 * If `samtools` complains about corruption when streaming, you can optionally create a cleaned BAM using a helper (not required for `iso_parser.py`).
 
-### 2) (Haven't tested it yet) Gencode v43 annotation (if you want to annotate clusters)
+### (Haven't tested it yet)
+    ### 2)  Gencode v43 annotation (if you want to annotate clusters)
 
-```bash
-wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_43/gencode.v43.annotation.gtf.gz
-```
+    ```bash
+    wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_43/gencode.v43.annotation.gtf.gz
+    ```
 
-Store that file somewhere accessible and pass `--gtf /path/to/gencode.v43.annotation.gtf.gz` to the parser if you want gene/exon annotation for clusters.
+    Store that file somewhere accessible and pass `--gtf /path/to/gencode.v43.annotation.gtf.gz` to the parser if you want gene/exon annotation for clusters.
 
-### 3) Example short/long-read BAMs from public archives
+    ### 3) Example short/long-read BAMs from public archives
 
-* NCBI SRA: use `prefetch` + `fasterq-dump` + alignment, or download pre-aligned BAMs if available from project pages.
-* ENA/1000 Genomes: many projects host BAM/CRAM; use `wget`/`curl` with direct links or use the ENA browser.
+    * NCBI SRA: use `prefetch` + `fasterq-dump` + alignment, or download pre-aligned BAMs if available from project pages.
+    * ENA/1000 Genomes: many projects host BAM/CRAM; use `wget`/`curl` with direct links or use the ENA browser.
 
 ---
 
