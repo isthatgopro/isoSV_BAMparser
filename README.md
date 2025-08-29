@@ -4,6 +4,8 @@
 - [Google Doc - Team 9](https://docs.google.com/document/d/1i5qklL01o8b1E8FYtd3IBWgXcedRDMfNrrp3aHU8AwE/edit?tab=t.0)
 - [SV Hackathon 2025](https://fritzsedlazeck.github.io/blog/2025/hackathon-2025/)
 
+- [GIAB002_chr22_region.bam](https://drive.google.com/drive/folders/1y48dxKJYkRXxDcEt6kTNbaEs6qCvUD8I?usp=drive_link)
+
 ---
 
 * `iso_parser.py` — the single main script. It performs robust parsing, per-read candidate extraction, optional clustering, and optional GTF annotation (if you supply a GTF).
